@@ -28,8 +28,7 @@ class MyAppState extends State<MyApp> {
         children: <Widget>[
           Text(questions[questionIndex]),
           RaisedButton(child: Text('Answer 1'),onPressed: answerQuestion,),
-          RaisedButton(child: Text('Answer 2'),onPressed: answerQuestion,),
-          RaisedButton(child: Text('Answer 3'),onPressed: answerQuestion,)
+
         ],
       ),
     ),);
